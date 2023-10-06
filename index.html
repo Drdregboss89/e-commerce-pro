@@ -1,50 +1,315 @@
 <!DOCTYPE html>
+<html lang="eng">
 <html>
 <head>
-	<meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
 	<title>E-Commerce</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="line-awesome.min.css">
-	<link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="lineawesom/css/line-awesome.min.css">
+	<link rel="stylesheet" href="shopstyles.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" type="text/css" href="cart.css">
+
+
 </head>
 <body>
-	
-
-	<!--------------hero------------------------------------------------------------------------------------------>
 
 
-	<section id="hero">
-
-        <div id="header">
+	<section id="header">
 		<a href="#"><img src="img/logo-1.png" alt="logo" class="logo"></a>
-
+        <div class="header-text"><h4>Bvongo Meats </h4></div>
 		<div>
 			<ul id="navbar">
-				<li><a class="active" href="#">Home</a></li>
-				<li><a href="#">Shop</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Contact</a></li>
-				<li><a href="#"><i class="las la-cart-arrow-down"></i></a></li>
+				<li><a class="active" href="#hero">Home</a></li>
+				<li><a  href="shop.html">Shop</a></li>
+				<li><a href="about.html">Abouts</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<div class="shopping">
+		  			<a href="beefCart.html"><i class="las la-cart-arrow-down"></i></a>
+		  			<span class="count" id="cartCount" style="right: 37px;">0</span>
+	  		    </div> 
+       </ul> 
 				
 		</div>
 		
-	</div>
-
-
-
-
-		<h4>Bvongo Meats </h4>
-		<h2>For exclusive deals and more.......</h2>
-		<h1>Come and enjoy the great test</h1>
-		<p>Save more , when you buy more </p>
-		<button>Shop now</button>
 	</section>
 
 
+	<!-- 000000000000000000000000000HER00000000000000000000000000000000 -->
 
 
-  <script type="text/javascript" src="main.js"></script>
+	<section id="hero" >
+
+       
+
+
+      <div class="text">
+
+		
+		<h2>'for exclusive deals and more.......'</h2>
+		<h4>Come and enjoy the great taste.</h4>
+		<!-- <p>Save more , when you buy more </p> -->
+	  	<button>Shop now</button>
+     </div>
+
+      
+
+
+	</section>
+
+	
+
+	<!--00000000000000000000000000000000000000FEATURED-->
+
+
+<section id="feature" class="section-p1">
+	
+ <div class="fe-box1">
+ 	<img src="img/Delivery-1.png" class="fe-img" alt="Delivery">
+ 	<p>We offer Delivery</p>
+ </div>
+
+  <div class="fe-box1">
+ 	<img src="img/download2.png" style="width: 120px" class="fe-img">
+ 	<p>Online Shopping</p>
+ </div>
+ 
+  <div class="fe-box1">
+ 	<img src="img/saving.jpeg" class="fe-img" alt="save-money">
+ 	<p>Buy more Save more</p>
+ </div>
+  <div class="fe-box1">
+ 	<img src="img/support.jpeg" class="fe-img" alt="24/7-support">
+ 	<p>24/7 Full Support</p>
+ </div>
+
+</section>
+
+<p class="undeline"></p> 
+
+
+<!--00000000000000000000000000000000000MY product-->
+
+<div class="proText"><h1>Shop Now!</h1></div>
+
+<section id="myProducts">
+
+ 	
+ <div class="myPro-container">
+
+ 	<div class="myPro" style="border-right: 1px solid #A75502;">
+ 		<!-- <h1>BEEF</h1> -->
+ 		 <a href="shop.html#beef"><img src="img/hbeef2.jpeg" alt="beef"></a> 
+ 	</div>
+
+ 	<div class="myPro" style="border-right: 1px solid #A75502;">
+ 		<!-- <h1>BEEF</h1> -->
+ 		 <a href="shop.html#pork"><img src="img/hprk1.jpeg" alt="pork"> </a>
+ 	</div>
+
+ 	<div class="myPro">
+ 		<!-- <h1>BEEF</h1> -->
+ 		 <a href="#checken"><img src="img/hchckn2.jpeg" alt="Chicken"></a> 
+ 	</div>
+
+ </div>
+
+</section>
+
+
+
+
+
+
+  
+
+  <!--0000000000000000000000barner-->
+
+<section id="barner" class="section-m1">
+	<div class="b-container">
+		<div><h6>For the Best and Affordable Quality </h6></div>
+		<div><p>Up to <span>25%-OFF</span>  on Sales Above <span>R200</span></p></div>
+		<div><button id="btn">Shop Now</button></div>
+	</div>
+</section>
+
+<section id="sm-barner" class="section-p1">
+
+
+	<div class="barner-box">
+		<h4>Summer Deals</h4>
+		<h2>Buy 5kg or More & Get 1kg Free</h2>
+		<span>The Best Quality For You</span><br>
+		<button>Learn More...</button>
+
+	</div>
+
+	<div class="barner-box barner-box2">
+		<h4>Kwachu Combo Deals</h4>
+		<h2>Your Choice Our Pride</h2>
+		<span>The Best Quality For You</span><br>
+		<button>See Collection...</button>
+
+	</div>
+
+
+</section>
+
+<section id="barner3" >
+	<div class="barner-box">
+		
+
+		<!-- <h2>Summer Deals for you</h2>
+		<h4>The Best Quality </h4> -->
+		
+
+	</div>
+
+	<div class="barner-box">
+		
+
+		<!-- <h2>Summer Deals for you</h2> -->
+		<h4>The Best Quality </h4>
+		<p>Mollit eu dolore culpa sunt<br> sed ut quis labore sint ut dolor. Lorem ipsum culpa dolor occaecat tempor <br>velit sed fugiat ad elit proident aliqua voluptate ex est nostrud dolore eu nisi qui excepteur </p>
+		
+
+	</div>
+
+	<div class="barner-box">
+		
+
+		<!-- <h2>Summer Deals for you</h2>
+		<h4>The Best Quality </h4>
+		 -->
+
+	</div>
+
+	
+
+	
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!--                          FOOTER                          -->
+
+
+
+<section id="footer" class="section-p1 ">
+
+	
+
+ <div class="section-1">
+
+<!--contact footer-->
+
+   <div class="col1 coll"><!-- 
+      <img src="img/logo1.jpeg" class="logo" style="width: 75px;" > -->
+      <h4>Contact us</h4>
+      <p><strong>Address:</strong><span>20 Church Street Goodwood Cape Town </span></p>
+      <p><strong>Phone:</strong><span>(cell) +27780102388 / (Landline) +27226442002</span></p>
+      <p><strong>Hours:</strong><span>Mon-Fri : 0700-1800 Sat-Sun 1030-1745</span> </p>
+
+    
+
+      
+   </div>
+
+   <!--About Footer-->
+   
+    <div class="col1 "> 
+      
+
+     <h4>About Us</h4>
+     <a href="about.html">About Us</a>
+     <a href="">Delivery Info</a>
+     <a href="contact.html">Contact Us</a>
+     <a href="">Privacy Policy</a>
+     <a href="">Help</a>
+         
+    </div>
+
+   <!--Shop now-->
+
+    <div class="col1"> 
+      
+      <h4>Shop Now</h4>
+     <a href="shop.html">Shop</a>
+     <a href="beefCart.html">Cart</a>
+     <a href="beefCart.html">Beef</a>
+     <a href="porkCart.html">Pork</a>
+     <a href="chicken.html">Chicken</a>
+
+      
+   </div>
+
+</div>
+<p class="undeline"></p>
+
+<div class="social">
+	
+     <div class="follow">
+         <h4>Follow Us</h4>
+         <div class="icons">
+            <a href=""><i class="lab la-facebook-f" style="color: #3b5998"></i></a>
+            <a href=""><i class="lab la-twitter" style="color: #00acee"></i></a>
+            <a href=""><i class="lab la-instagram" style="background-image: linear-gradient(#515BD4,#8134AF,#DD2A7B,#FEDA77,#F58529);background-size: cover;background-position: center;border-radius: 100px"></i></a>
+            <a href=""><i class="lab la-whatsapp" style="color: #fff"></i></a>
+         </div>
+      </div>
+
+      <div class="payments">
+      <h6>Secured Payements Gateways</h6>
+
+       <div class="logo-wrapper"> 
+         <img src="img/ftlog2.jpeg" style="width: 50px;height: 30px;" alt="logo2">
+
+         <img src="img/ftlog1.jpeg" style="width: 50px;height: 30px;" alt="log03">
+
+         <img src="img/ftlog3.jpeg" style="width: 50px;height: 30px;" alt="logo4">
+       </div> 
+   </div>
+
+   <div class="form">
+		<input type="email" placeholder="Your Email">
+		<button>Submit</button>
+		<p>Subscribe for more deals and product updates</p>
+	</div>
+
+
+</div>
+
+ <div class="copyright">
+        &copy; 2023 DregBoss &#124 All rights reserved &#124 PRIVACY POLICY &#124 RETURNS POLICY &#124 HELP
+  </div>
+
+ <p class="undeline"></p> 	
+
+ 
+</section>
+
+
+
+
+
+
+
+
+
+
+<script src="main.js"></script>
+<script src="cart.js" ></script>
+
+
 </body>
 </html>

@@ -1,0 +1,238 @@
+
+ 
+ header{
+ 	/*display: grid;
+ 	grid-template-columns: 1fr 50px;
+ 	margin-top: 15px;*/
+ }
+ header .shopping{
+ 	position: relative;
+ 	text-align: right;
+
+ }
+ header .shopping a i{
+ 	font-size: 45px;
+ 	color: #A75502;
+ }
+ header .shopping span{
+ 	background-color: red;
+ 	border-radius: 50%;
+ 	display: flex;
+ 	justify-content:center;
+ 	align-items: center;
+ 	color: #fff;
+ 	position: absolute;
+ 	
+ 	padding: 3px 10px; 
+ }
+ .product-container{
+    width: 100%;
+ 	margin: 20px 15px;
+ 	transition: 0.5s;
+ 	display: grid;
+    grid-template-columns: repeat(2,5fr);
+   /* display: flex;
+    align-items: center;
+    justify-content: center;*/
+ }
+ #beefContainer , #porkContainer, #chickenContainer {
+ 	width: 100%;
+ 	display: grid;
+ 	grid-template-columns: repeat(3, 1fr);
+ 	grid-gap: 20px;
+ 	margin-top: 10px;
+ 	margin-right: 25px;
+ }
+ #root{
+ 	width: 100%;
+ 	display: grid;
+ 	grid-template-columns: repeat(3, 1fr);
+ 	grid-gap: 20px;
+ 	margin-top: 10px;
+ 	margin-right: 25px;
+ }
+ .sidebar{
+
+ 	/*width: 50%;*/
+ 	border-radius: 5px;
+ 	background-color: #eee;
+ 	margin-left: 29px;
+ 	margin-top: 10px;
+ 	padding: 15px;
+ 	text-align: center;
+
+ }
+ .side-head{
+ 	background-color: goldenrod;
+ 	border-radius: 3px;
+ 	height: 40px;
+ 	padding: 10px;
+ 	margin-bottom: 20px;
+ 	color: white;
+ 	display: flex;
+ 	align-items: center;
+ }
+ .side-head p{
+ 	color: white;
+ 	font-size: 18px;
+ }
+ .foot{
+ 	display: flex;
+ 	justify-content: space-between;
+ 	margin: 20px 0;
+ 	padding: 10px 0;
+ 	border-top: 1px solid #333;
+ }
+ .box{
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: space-between;
+ 	align-items: center;
+ 	
+ 	border-radius: 5px;
+ 	padding:15px;
+ 	margin-bottom: 15px;
+ 	box-shadow: 0 5px 15px rgba(0 , 0 , 0 , 0.06);
+ 	cursor:pointer;
+ 	transition: 0.5s ease;
+ 	/*margin-right:  25px;*/
+ }
+ .box:hover{
+ 	border:1px solid goldenrod;
+ 	transform: translateY(5px);
+ }
+ .img-box{
+ 	width: 100%;
+ 	height: 180px;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	box-shadow: 0 5px 15px rgba(0 , 0 , 0 , 0.06)
+ }
+ .images{
+ 	max-width: 90%;
+ 	max-height: 90%;
+ 	object-fit: cover;;
+ 	object-position: center; 
+ }
+ .bottom{
+ 	margin-top: 20px;
+ 	width: 100%;
+ 	text-align: center;
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+ 	justify-content: space-between;
+ 	height: 110px;
+ }
+ h5{
+ 	font-size: 20px;
+ 	color: red;
+ }
+.add-to-cart{
+	width: 100%;
+	position: relative;
+	border:none;
+	border-radius: 5px;
+	background-color: goldenrod;
+	padding: 7px 25px;
+	cursor: pointer;
+	color: white;
+}
+.order{
+
+	width: 50%;
+	position: relative;
+	border:none;
+	border-radius: 5px;
+	background-color: goldenrod;
+	padding: 7px 25px;
+	cursor: pointer;
+	color: white;
+
+}
+button:hover{
+	background-color: #333;
+}
+.cart-item{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	background-color: white;
+	border-bottom: 1px solid  #aaa;
+	border-radius: 3px;
+	margin: 10px 10px;
+}
+.row-img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	border:1px solid goldenrod;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.rowimg{
+	max-width: 43px;
+	max-height: 43px;
+	border-radius: 50%;
+}
+.la-trash {
+	cursor: pointer;
+	color: red;
+}
+
+/*form payment*/
+
+
+.payment-form{
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.payment-form h3{
+    margin: 15px 0;
+
+
+}
+#paymentForm{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+}
+ #paymentForm label{
+ 	display: none;
+ }
+ #paymentForm input{
+ 	border:none;
+	width: 350px;
+	height: 45px;
+	background-image:  linear-gradient(#fef9f2,#fff);
+	color: #333;
+	padding-left: 5px;
+
+ } 
+#paymentForm input:focus{
+	border: transparent;
+	outline: none;
+}
+#paymentForm input::placeholder {
+	color: goldenrod;
+}
+#paymentForm input:focus::placeholder{
+	color: transparent;
+
+}
+#paymentForm button{
+	
+	position: relative;
+	border:none;
+	border-radius: 5px;
+	background-color: goldenrod;
+	padding: 7px 25px;
+	cursor: pointer;
+	color: white;
+} 

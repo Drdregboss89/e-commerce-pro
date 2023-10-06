@@ -1,0 +1,144 @@
+
+
+#footer .section-1{
+	/*display: flex;
+	justify-content: space-between;
+	align-items: center;*/
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	/*align-items: center;*/
+}
+#footer .section-1 .col1{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+}
+#footer .section-1 .coll{
+	display: flex;
+	justify-content: flex-start;
+	align-items: start;
+	flex-direction: column;
+}
+
+#footer .section-1 .col1 h4{
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	margin-top: 125px;
+	color: #fff;
+}
+#footer .section-1 .col1 p{
+	font-size: 13px;
+	line-height: 20px;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: #fff;
+}
+#footer .section-1 .col1 p span{
+	color: #fff;
+}
+#footer .section-1 .col1 img{
+	margin-top: 25px;
+	align-items: center;
+	text-align: center;
+}
+
+/*#footer .section-1 .col1{
+	display: flex;
+	justify-content: flex-start;
+	align-items: start;
+	flex-direction: column;
+}*/
+#footer .section-1 .col1 h4{
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	padding: 25px 0;
+	color: #fff;
+
+}
+#footer .section-1 .col1 a{
+	text-decoration: none;
+	color: #fff;
+	margin-top: 10px;
+
+}
+#footer .social{
+	display: flex;
+	justify-content: space-evenly;
+}
+#footer .social .follow{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+#footer .social .follow h4{
+font-size: 15px;
+text-transform: uppercase;
+color: #fff;
+
+}
+#footer .social .follow .icons{
+	margin-top: 10px;
+}
+#footer .social .follow a{
+	text-decoration: none;
+
+}
+#footer .social .follow i{
+font-size: 35px;
+color: #fff;
+
+}
+#footer .social .payments img{
+	margin-top: 10px;
+	align-items: center;
+	text-align: center;
+}
+
+
+
+#footer .social .form input{
+          width: 350px;
+          height: 3.125rem;
+         font-size: 14px;
+          border-radius: 4px;
+          border:1px solid transparent;
+          padding:0 1.25em;
+          outline: none;
+          border-top-right-radius: 0;
+          border-bottom-right-radius: 0;
+        }
+        #footer .social .form button{
+          white-space: nowrap;
+          color: white;
+          border:none;
+          background-color: #317546;
+          width: 75px;
+          height: 3.125rem;
+          border-radius: 5px;
+          cursor: pointer;
+          transition: 0.6s ease;
+          border-top-left-radius: 0;
+          border-bottom-left-radius: 0;
+         }
+         #footer .social .form button:hover{
+          background-color:  #FED000;
+          color: black;
+         }
+        #footer .social .form p{
+          font-size: 15px;
+          color: #fff;
+        }
+         #footer .copyright{
+         display: flex;
+         text-align: center;
+         place-items: center;
+         justify-content: center;
+         align-items: center;
+         font-size: 12PX;
+         margin-top: 30px; 
+         }
+
